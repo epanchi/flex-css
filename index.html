@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ul--container{
+            display: flex;
+           
+            flex-flow: row wrap; 
+             /* flex-direction: row;
+            flex-wrap: wrap;   */
+
+            justify-content: space-evenly;
+            align-content: flex-start;
+            gap:1em 2em;
+
+
+        }
+
+        .ol--container{
+            display: flex;
+            flex-direction: column;
+           
+            column-gap:2em;
+        }
+
+        .ol--container li,
+        .ul--container li{
+            border: black 1px solid;
+            border-radius: 5px;
+            padding: 1em;
+            color:white;
+            background-color: violet;
+        
+            list-style: none;
+
+        }
+    </style>
+</head>
+<body>
+    <h1> Flex demo</h1>
+    <div class="container">
+       <ul class="ul--container">
+           <li>In minim mollit voluptate proident nostrud.</li>
+           <li>In minim mollit voluptate proident nostrud.</li>
+           <li>Veniam ullamco sit mollit enim. Consectetur voluptate officia incididunt Lorem quis ea. Magna dolor in officia deserunt sunt aute incididunt. Fugiat est reprehenderit nisi officia anim aliqua veniam. Ea sint aliqua sunt occaecat reprehenderit.</li>
+           <li>In minim mollit voluptate proident nostrud.</li>
+           <li>In minim mollit voluptate proident nostrud.</li>
+           <li>In minim mollit voluptate proident nostrud.</li>
+           <li>Aute ipsum anim esse veniam. Dolor incididunt et laboris voluptate occaecat nulla. Sit deserunt sunt labore dolore reprehenderit reprehenderit officia excepteur anim elit. Aliquip anim non ipsum officia ad cupidatat minim et anim aliqua dolore exercitation ea enim. Aliqua labore id aliqua veniam ea incididunt est enim.</li>
+           <li>In minim mollit voluptate proident nostrud.</li>
+           <li>In minim mollit voluptate proident nostrud.</li>
+           <li>In minim mollit voluptate proident nostrud.</li>
+           <li>eight</li>
+       </ul>
+    </div>
+<hr>
+    <div class="container">
+        <p>Order flex container with columns direction</p>
+       <ol class="ol--container">
+        <li>In minim mollit voluptate proident nostrud.</li>
+        <li>In minim mollit voluptate proident nostrud.</li>
+        <li>Veniam ullamco sit mollit enim. Consectetur voluptate officia incididunt Lorem quis ea. Magna dolor in officia deserunt sunt aute incididunt. Fugiat est reprehenderit nisi officia anim aliqua veniam. Ea sint aliqua sunt occaecat reprehenderit.</li>
+        <li>In minim mollit voluptate proident nostrud.</li>
+        <li>In minim mollit voluptate proident nostrud.</li>
+        <li>In minim mollit voluptate proident nostrud.</li>
+        <li>Aute ipsum anim esse veniam. Dolor incididunt et laboris voluptate occaecat nulla. Sit deserunt sunt labore dolore reprehenderit reprehenderit officia excepteur anim elit. Aliquip anim non ipsum officia ad cupidatat minim et anim aliqua dolore exercitation ea enim. Aliqua labore id aliqua veniam ea incididunt est enim.</li>
+        <li>In minim mollit voluptate proident nostrud.</li>
+        <li>In minim mollit voluptate proident nostrud.</li>
+        <li>In minim mollit voluptate proident nostrud.</li>
+        <li>eight</li>
+    </ol>
+    </div>
+</body>
+</html>
